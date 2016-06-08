@@ -1,0 +1,23 @@
+{
+  "name": "ws.test",
+  "version": "0.0.1",
+  "description": "This is a practise for socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wncbb/ws.test.git"
+  },
+  "author": "wncbb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wncbb/ws.test/issues"
+  },
+  "homepage": "https://github.com/wncbb/ws.test#readme",
+  "dependencies": {
+    "koa": "^1.2.0",
+    "socket.io": "^1.4.6"
+  }
+}

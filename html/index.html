@@ -1,0 +1,9 @@
+<script src="/static/js/socket.io-1.4.5.js"></script>
+hello world
+<script>
+  var socket = io('http://localhost');
+  socket.on('news', function (data) {
+    console.log(data);
+    socket.emit('my other event', { my: 'data' });
+  });
+</script>
